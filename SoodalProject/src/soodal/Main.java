@@ -8,18 +8,23 @@ public class Main {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		int a = sc.nextInt();
-		int b = sc.nextInt();
+		int h = sc.nextInt();
+		int m = sc.nextInt();
 		
-		if(a > 0 && b > 0) {
-			System.out.println(1);
-		} else if(a < 0 && b > 0) {
-			System.out.println(2);	
-		} else if(a < 0 && b < 0) {
-			System.out.println(3);			
-		} else {
-			System.out.println(4);			
+		m -= 45;
+		if(m > 59) {
+			h += 1;
+			m = 0;
+		} else if(m < 0) {
+			h -= 1;
+			m += 60;
 		}
+		if(h > 23) {
+			h = 0;
+		} else if(h < 0) {
+			h = 23;
+		}
+		System.out.println(h + " "+ m);
 	}
 
 }
