@@ -10,7 +10,7 @@ public class Main {
 		
 		int a = sc.nextInt();
 		
-		for(int i=a; i <= 1; i--) {
+		for(int i=a; i >= 1; i--) {
 			System.out.println(i);
 		}
 
