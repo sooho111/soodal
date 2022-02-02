@@ -2,9 +2,9 @@ package soodal;
 
 import java.util.Scanner;
 
-public class Main {
+public class Main2 {
 
-	public static void main(String[] args) { // for문 2번 A+B - 3
+	public static void main(String[] args) { // for문 1번 구구단
 		
 		Scanner sc = new Scanner(System.in);
 		
