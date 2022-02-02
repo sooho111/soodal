@@ -24,7 +24,6 @@ public class Main3 {
 		for(int k : arr) {
 			System.out.println(k);			
 		}
-
 	}
 
 }

@@ -2,7 +2,7 @@ package soodal;
 
 import java.util.Scanner;
 
-public class Main {
+public class Main4 {
 
 	public static void main(String[] args) { // for문 3번 합
 		
