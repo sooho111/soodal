@@ -6,9 +6,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
-public class Main {
+public class Main6 {
 
-	public static void main(String[] args) throws IOException { // for문 5번 N찍기
+	public static void main(String[] args) throws IOException { // for문 4번 빠른 A+B
 		
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		
